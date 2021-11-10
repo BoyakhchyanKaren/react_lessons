@@ -1,0 +1,17 @@
+.ul_class{
+    font-family: "Leelawadee UI";
+    size: A4;
+    color: red;
+}
+.p_class{
+    font-family: inherit;
+    size: inherit;
+    color: black;
+}
+.button_class{
+    background-color: greenyellow;
+}
+.button_class:hover{
+    background-color: #61dafb;
+    cursor: pointer;
+}
