@@ -1,0 +1,12 @@
+.button_btn1{
+    margin-bottom: 20px;
+}
+.button_btn2{
+    margin: 10px 10px 10px 10px;
+}
+.btn1{
+    display: inherit;
+}
+.btn2{
+    display: none;
+}
