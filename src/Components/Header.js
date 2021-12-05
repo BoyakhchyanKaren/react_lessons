@@ -1,0 +1,23 @@
+import {Link, Outlet} from "react-router-dom";
+function Header( ) {
+    return (
+        <>
+            <nav className="navbar navbar-expand-sm bg-light">
+                <div className="container-fluid">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/user">Link 1</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/posts">Link 2</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <Outlet />
+        </>
+    )
+};
+
+
+export default Header;
